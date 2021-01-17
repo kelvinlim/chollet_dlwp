@@ -1,8 +1,7 @@
 # This is a clone of Chollet's Jupyter notebooks from his book "Deep Learning with Python"
 I have included a conda requirements file: keras224_tensorflowgpu_112.txt  to make it easier to create a conda 
-environment in order to run the notebooks. (see https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+environment in order to run the notebooks. (see https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html and https://stackoverflow.com/questions/48787250/set-up-virtualenv-using-a-requirements-txt-generated-by-conda)
 
-# https://stackoverflow.com/questions/48787250/set-up-virtualenv-using-a-requirements-txt-generated-by-conda
 ```bash
 To create the requirements file
 conda list --export > requirements.txt

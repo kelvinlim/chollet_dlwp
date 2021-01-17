@@ -1,3 +1,19 @@
+# This is a clone of Chollet's Jupyter notebooks from his book "Deep Learning with Python"
+I have included a conda requirements file: keras224_tensorflowgpu_112.txt  to make it easier to create a conda 
+environment in order to run the notebooks. (see https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+
+# https://stackoverflow.com/questions/48787250/set-up-virtualenv-using-a-requirements-txt-generated-by-conda
+```bash
+To create the requirements file
+conda list --export > requirements.txt
+
+# using pip
+pip install -r requirements.txt
+
+# using Conda
+conda create --name <env_name> --file requirements.txt
+```
+
 # Companion Jupyter notebooks for the book "Deep Learning with Python"
 
 This repository contains Jupyter notebooks implementing the code samples found in the book [Deep Learning with Python (Manning Publications)](https://www.manning.com/books/deep-learning-with-python?a_aid=keras&a_bid=76564dff). Note that the original text of the book features far more content than you will find in these notebooks, in particular further explanations and figures. Here we have only included the code samples themselves and immediately related surrounding comments.

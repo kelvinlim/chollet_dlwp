@@ -13,6 +13,15 @@ pip install -r requirements.txt
 conda create --name <env_name> --file requirements.txt
 ```
 
+## to run the notebooks
+```bash
+# to install and run jupyter notebook, I am using my a conda environment which 
+# supports keras 2.2.4 and tensorflow-gpu 112
+pip install jupyter
+cd ~/Notebooks   # move to location where my notebooks are stored
+jupyter notebook
+```
+
 # Companion Jupyter notebooks for the book "Deep Learning with Python"
 
 This repository contains Jupyter notebooks implementing the code samples found in the book [Deep Learning with Python (Manning Publications)](https://www.manning.com/books/deep-learning-with-python?a_aid=keras&a_bid=76564dff). Note that the original text of the book features far more content than you will find in these notebooks, in particular further explanations and figures. Here we have only included the code samples themselves and immediately related surrounding comments.

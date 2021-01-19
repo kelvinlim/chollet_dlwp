@@ -10,7 +10,7 @@ conda list --explicit > keras2-2-4_gpu.txt
 pip install -r requirements.txt
 
 # using Conda
-conda create --name keras224_gpu --file keras-2-2-4_gpu.txt
+conda create --name keras224_gpu --file keras2-2-4_gpu.txt
 ```
 
 ## to run the notebooks

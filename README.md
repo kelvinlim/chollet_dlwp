@@ -6,7 +6,7 @@ environment in order to run the notebooks. (see https://docs.conda.io/projects/c
 To create the specification  file
 conda list --explicit > keras2-2-4_gpu.txt
 
-# using Conda
+# using Conda to create a new environment
 conda create --name keras224_gpu --file keras2-2-4_gpu.txt
 ```
 
